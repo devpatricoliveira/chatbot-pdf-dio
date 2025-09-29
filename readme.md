@@ -55,32 +55,35 @@ Por isso, criei um sistema completo de análise que funciona **100% localmente, 
 # Clone o repositório
 git clone https://github.com/seu-usuario/chatbot-pdf-dio.git
 cd chatbot-pdf-dio
-
+```
 # Instale as dependências
+```bash
 pip install -r requirements.txt
+```
+
 2. Adicione Seus Documentos
 Coloque seus arquivos PDF ou TXT na pasta inputs/:
 
-bash
-Copiar código
-# Exemplo:
+ 
 inputs/
 ├── artigo_cientifico.pdf
 ├── relatorio_trabalho.pdf
 └── documento_exemplo.txt
+ 
 3. Execute o Chatbot
+```bash
 bash
-Copiar código
 python chatbot.py
-4. Escolha o Modo de Uso
+```
+4. Escolha o Modo de Uso:
 🤖 Modo com IA (Para quem tem acesso à OpenAI)
 Configure sua chave API no menu
 
-Faça perguntas em normais
+Faça perguntas em linguagem natural
 
 Receba respostas inteligentes baseadas no documento
 
-🎯 Modo sem IA 
+🎯 Modo sem IA:
 Análise completa do texto
 
 Estatísticas detalhadas
@@ -93,8 +96,7 @@ Exportação de relatórios
 
 📸 Como Funciona
 📋 Menu Principal
-markdown
-Copiar código
+```text
 🚀 Chatbot para Análise de PDFs
 ==========================================
 Desenvolvido com Python + OpenAI
@@ -107,9 +109,9 @@ Modo Duplo: Com IA e Sem IA
 3 - 📁 Listar arquivos
 4 - 📝 Ver histórico
 5 - ❌ Sair
+```
 🎯 Modo Sem IA - Exemplo de Uso
-arduino
-Copiar código
+```text
 🎯 Modo Sem IA - documento_exemplo.txt
 ==================================================
 1 - 📊 Resumo do documento
@@ -120,7 +122,8 @@ Copiar código
 6 - 📄 Ver metadados
 7 - 💾 Exportar análise
 8 - 🔙 Voltar
-💡 Insights e Aprendizados
+```
+
 🔍 Sobre IA Generativa
 A IA funciona muito melhor quando recebe trechos relevantes do documento
 
@@ -153,24 +156,19 @@ Oferecer múltiplas opções torna o software mais democrático
 
 👥 Colaboração — Compartilhar análises com outras pessoas
 
-👨‍💻 Sobre o Desenvolvedor
-Seu Patric Oliveira
+## 👨‍💻 Sobre o Desenvolvedor
+Patric Oliveira
 Estudante de programação apaixonado por criar soluções acessíveis e úteis.
-🌐 https://patricoliveira.com
 
+🌐 Portfolio: https://patricoliveira.com.br
 
+## 🎉 Conclusão
 
-🎉 Conclusão
-Este projeto atende todos os requisitos do desafio DIO e vai além, demonstrando:
+Cara, desenvolver esse projeto foi uma experiência incrível. Consegui **atender todos os requisitos** que a DIO pediu no desafio, mas o que mais me deixou animado foi ter ido **além do básico**. Olha só o que consegui demonstrar com esse projeto:
 
-✅ Competência técnica em Python e processamento de texto
+✅ **Minha habilidade técnica** - Mostrei que domino Python e consigo trabalhar com processamento de texto de verdade  
+✅ **Pensamento crítico** - Identifiquei que muita gente não teria acesso por causa do custo das APIs  
+✅ **Criatividade na prática** - Desenvolvi uma solução alternativa que resolve o problema  
+✅ **Compromisso com a comunidade** - Garanti que o conhecimento fique acessível pra todo mundo
 
-✅ Pensamento crítico ao identificar limitações de acesso
-
-✅ Criatividade ao desenvolver soluções alternativas
-
-✅ Compromisso social ao garantir acessibilidade para todos
-
-O Modo Sem IA não era obrigatório, mas foi minha forma de garantir que conhecimento e tecnologia estejam disponíveis para todos usarem para uso pessoal, ou para fins empresariais.
-
-Desenvolvido com 💙 para a comunidade DIO — formando os profissionais de tech do futuro! 🚀
+O **Modo Sem IA** não era nada obrigatório, mas eu pensei que, vamos criar algo que possa ser moldado para uso pessoal, empresarial ou como quiser. Foi minha forma de garantir que **tecnologia de qualidade** esteja disponível tanto pra quem quer usar em casa, estudando, quanto pra pequenas empresas que precisam de uma solução sem gastar fortunas.No final, é bom saber que é um projeto que pode ter possibilidade de adicionar inúmeras melhorias, em ambas as funcionalidades.
